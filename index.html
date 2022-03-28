@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="title" content="Possiblyrewarding"/>
+  <meta name="og:title" content="Possiblyrewarding"/>
+  <meta name="og:description" content="A Hypixel Daily Reward link generator that will sometimes produce results!"/>
+  <meta name="og:type" content="website"/>
+  <meta name="og:url" content="https://182exe.github.io/Possiblyrewarding"/>
+  <meta name="og:image" content="https://raw.githubusercontent.com/182exe/resources/main/pr.png"/>
+  <link rel="shortcut icon" type="image/jpg" href="https://raw.githubusercontent.com/182exe/resources/main/pr.png"/>
+  <link rel="icon" type="image/jpg" href="https://raw.githubusercontent.com/182exe/resources/main/pr.png"/>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Courier Prime' rel='stylesheet'>
+  <title>Possiblyrewarding</title>
+</head>
+<body>
+  <div class="title">
+    <h1>Possiblyrewarding</h1>
+    <h5>A Hypixel Daily Reward link generator that will sometimes produce results!</h5>
+  </div>
+  <hr class="hr">
+  <div class="title">
+    <h3>Settings</h3>
+    <h5>Please input how many links you want to generate.</h5>
+    <input id="lengthInput" class="settings" type="number" placeholder="Number of Links">
+    <button class="button" onclick="javascript:updateSettings()">Generate</button>
+    <button class="button" onclick="javascript:copyResult()">Copy Result</button>
+    <button class="button" onclick="javascript:viewRaw()">View Raw Result</button>
+    <br>
+    <br>
+  </div>
+  <hr class="hr">
+  <div class="text"></div>
+  <script src="main.js"></script>
+</body>
+</html>
